@@ -3,7 +3,7 @@
   "description": "Part one of System Admin",
   "courses": [
     {
-      "course_id": "./Linux-CLI",
+      "course_id": "lesson-1",
       "title": "Linux-CLI",
       "description": "Linux"
     }
