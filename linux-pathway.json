@@ -1,9 +1,0 @@
-{
-  "title": "Linux",
-  "description": "Linux",
-  "courses": [
-    "course_id": "Linux-CLI",
-    "title": "Linux Quiz",
-    "description": "Verify understand and key points by using an interactive quiz"
-  ]
-}
