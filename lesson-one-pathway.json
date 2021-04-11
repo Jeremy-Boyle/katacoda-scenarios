@@ -1,0 +1,11 @@
+{
+  "title": "lesson-one",
+  "description": "Linux System Admin Part 1",
+  "courses": [
+    {
+      "course_id": "Linux-CLI",
+      "title": "Linux-CLI",
+      "description": "Linux"
+    }
+  ]
+}
