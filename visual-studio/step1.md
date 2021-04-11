@@ -1,7 +1,5 @@
-The Katacoda `terminal` layout provides a full Terminal experience with IDE Functionality
+This `terminal + VS Code` layout provides a full Terminal experience with IDE Functionality
 ## IDE Functionality
-
-With the IDE, you can open files certain files from Markdown - `newFile.js`{{open}}
 
 You can copy, extend or replace text from UI helpers.
 
@@ -40,9 +38,6 @@ cd example
 node app.js
 ```{{execute}}
 
-## Generated Web Link to access the site
+## Generated Web Link to access web page
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
-
-## Markdown 
-<pre>https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com</pre>
