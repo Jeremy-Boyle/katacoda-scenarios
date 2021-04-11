@@ -1,6 +1,6 @@
 ## Whoami
 
->>Q1:What account is the user currently logged in with?<<
+>>Q1: What account is the user currently logged in with?<<
 === root
 
 >>Q2: What does sudo whoami indcate (Username)<<
