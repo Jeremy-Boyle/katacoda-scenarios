@@ -3,7 +3,7 @@
   "description": "Lesson 1: System Administration - Section 1",
   "courses": [
     {
-      "pathway_id": "jeremyboyle/lesson-1",
+      "pathway_id": "jeremyboyle/lesson-1/Linux-CLI",
       "id": "Linux-CLI",
       "course_id": "Linux-CLI",
       "title": "Linux-CLI",
