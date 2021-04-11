@@ -4,7 +4,7 @@
 === /root
 
 >>Q2: What does pwd stand for?<<
-=~= Print Working Directory
+=~= print working directory
 
 >>Q3: What does pwd do <<
 (*) Prints the current working directory
