@@ -3,6 +3,7 @@
   "description": "Linux System Admin Part 1",
   "courses": [
     {
+      "external_link": "https://learn.platform-ops.com/lab.php?course=lesson-one&lab=Linux-CLI",
       "course_id": "Linux-CLI",
       "title": "Linux-CLI",
       "description": "Linux"
