@@ -17,7 +17,12 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uieditorpath": "/root/",
+    "showide": false,
+    "idePort": 23000,
+    "uilayout": "terminal"
+  },
   "backend": {
     "imageid": "vscode"
   }
