@@ -1,4 +1,6 @@
 
 #!/bin/bash
 
-mkdir -p yaml; cd yaml/
+mkdir -p yaml
+cd yaml/
+mv ../foo* .
