@@ -1,1 +1,1 @@
-cd yaml
+mkdir -p /root/yaml && cd yaml
