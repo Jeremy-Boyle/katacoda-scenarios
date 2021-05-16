@@ -10,7 +10,7 @@ Good Luck!
 
 3. Run `ytt -f .` to view your generated manifest. You have succeeded if your generated manifest looks like this:
 ```
-ytt -f
+ytt -f .
 ```{{execute}}
 
 ```yaml

@@ -12,7 +12,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "install-ytt.sh"
+      "courseData": "install-ytt.sh",
+      "command": "startup.sh"
     },
     "finish": {
       "text": "finish.md"
