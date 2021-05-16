@@ -5,7 +5,6 @@ cat << EOF > /root/setup.sh
 show_progress()
 {
   local -r pid="${1}"
-  local -r delay='0.75'
   local spinstr='\|/-'
   local temp
   printf "    \b\b\b\b"
@@ -16,7 +15,7 @@ show_progress()
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
       spinstr=${temp}${spinstr%"${temp}"}
-      sleep "${delay}"
+      sleep "0.75"
       printf "\b\b\b\b\b\b"
     else
       break
