@@ -16,18 +16,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client01": [
-        {
-          "file": "foo-template.yaml",
-          "target": "/root/yaml/"
-        },
-        {
-          "file": "foo-values.yaml",
-          "target": "/root/yaml/"
-        }
-      ]
     }
   },
   "files": [
