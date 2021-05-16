@@ -17,10 +17,8 @@
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "editor-terminal-split"
-  },
+  "environment": {},
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "vscode"
   }
 }
