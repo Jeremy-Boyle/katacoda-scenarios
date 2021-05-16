@@ -1,0 +1,32 @@
+#! This line lets this file access the values kept in any file marked with #@data/values
+#@ load("@ytt:data", "data")
+#! This line lets this file use the YTT overlay module.
+#@ load("@ytt:overlay", "overlay")
+
+#! This function returns a block of YAML that we can search for.
+#@ def get_joe_snuffy():
+kind: DA Civilian
+metadata:
+  name: Joe Snuffy
+#@ end
+
+#! This is the line that searches for the specific block of YAML that we will be editing
+#@overlay/match by=overlay.subset(get_joe_snuffy()), expects="1+"
+---
+#! Everything below this line, and before the next search line, is the "editing" that we're doing
+#! There is an implicit #@overlay/match before every line, we only need to write our own "match" in certain cases.
+#! TODO: Change Snuffy's "kind" value to "Soldier"
+kind:
+metadata:
+  #! TODO: Remove the namespace key entirely
+  namespace:
+spec:
+  hobbies:
+  #! TODO: Append Snuffy's newest hobby to the list
+  - #@ data.values.new_hobby
+  relatives:
+  #! Here is one of those certain cases mentioned above. We want to find a specific item in this list.
+  #! TODO: Match on one of the objects in this list by the value of the "name" key
+  - name: Joe Snuffy Jr.
+    #! TODO: Change Junior's "relation" value to "son"
+    relation: son

@@ -11,6 +11,11 @@
       "course_id": "ytt-lesson-two",
       "title": "Ytt Lesson Two - Control Flow",
       "description": "Ytt Templating Lesson Two"
+    },
+    {
+      "course_id": "ytt-lesson-three",
+      "title": "Ytt Lesson Three - Overlay",
+      "description": "Ytt Templating Lesson Three"
     }
   ]
 }

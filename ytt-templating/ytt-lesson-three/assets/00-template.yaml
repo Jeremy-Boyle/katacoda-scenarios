@@ -1,0 +1,16 @@
+#! This is a template, do not modify this file!
+
+---
+kind: DA Civilian
+metadata:
+  name: Joe Snuffy
+  namespace: Mars
+spec:
+  hobbies:
+  - Knitting
+  - Skydiving
+  relatives:
+  - name: Jane Snuffy
+    relation: wife
+  - name: Joe Snuffy Jr.
+    relation: cousin
