@@ -15,7 +15,7 @@ show_progress()
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
       spinstr=${temp}${spinstr%"${temp}"}
-      sleep "0.75"
+      sleep "1"
       printf "\b\b\b\b\b\b"
     else
       break
