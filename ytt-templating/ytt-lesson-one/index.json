@@ -18,14 +18,21 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [
+      "client01": [
         {
           "file": "foo-template.yaml",
-          "target": "/root/yaml"
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "foo-values.yaml",
+          "target": "/root/yaml/"
         }
       ]
     }
   },
+  "files": [
+    "foo-template.yaml", "foo-values.yaml"
+  ],
   "environment": {
     "hidefinish": true,
     "uilayout": "editor-terminal",
