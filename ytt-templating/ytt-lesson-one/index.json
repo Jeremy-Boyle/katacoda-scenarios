@@ -19,7 +19,7 @@
     },
     "assets": {
       "host01": [
-          {"file": "assets/foot-template.yaml", "target": "/root/"},
+          {"file": "assets/foo-template.yaml", "target": "/root/"},
           {"file": "assets/foo-values.yaml", "target": "/root/"}
       ]
     }
