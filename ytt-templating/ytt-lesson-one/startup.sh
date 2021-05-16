@@ -33,4 +33,5 @@ show_progress()
 show_progress
 EOF
 chmod +x setup.sh
+clear
 ./setup.sh
