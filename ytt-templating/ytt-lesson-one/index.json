@@ -28,7 +28,7 @@
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uisettings": "javascript",
-    "uieditorpath": "/root/yaml"
+    "uieditorpath": "/root/"
   },
   "backend": {
     "imageid": "ubuntu:2004"
