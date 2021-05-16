@@ -1,0 +1,13 @@
+{
+  "title": "Ytt Templating",
+  "description": "Ytt Yaml Templating",
+  "courses": [
+    {
+      "pathway_id": "jeremyboyle/ytt-templating",
+      "title": "Ytt Lesson One",
+      "id": "ytt-lesson-one",
+      "course_id": "ytt-lesson-one",
+      "description": "Ytt Templating Lesson One"
+    }
+  ]
+}

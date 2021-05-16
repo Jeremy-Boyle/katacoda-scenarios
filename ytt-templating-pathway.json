@@ -1,0 +1,11 @@
+{
+  "title": "ytt-templating",
+  "description": "Yaml YTT Templating",
+  "courses": [
+    {
+      "course_id": "ytt-lesson-one",
+      "title": "Ytt Lesson One",
+      "description": "Ytt Templating Lesson One"
+    }
+  ]
+}
