@@ -1,3 +1,3 @@
 #!/bin/bash
 wait 3
-./check.sh
+./tmp/check.sh
