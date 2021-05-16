@@ -21,7 +21,7 @@
   "environment": {
     "hidefinish": true,
     "uilayout": "editor-terminal",
-    "uisettings": "yaml",
+    "uisettings": "bash",
     "uieditorpath": "/root/yaml"
   },
   "backend": {
