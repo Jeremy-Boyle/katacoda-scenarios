@@ -16,12 +16,18 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+          {"file": "assets/foot-template.yaml", "target": "/root/yaml/"},
+          {"file": "assets/foo-values.yaml", "target": "/root/yaml/"}
+      ]
     }
   },
   "environment": {
     "hidefinish": true,
     "uilayout": "editor-terminal",
-    "uisettings": "bash",
+    "uisettings": "javascript",
     "uieditorpath": "/root/yaml"
   },
   "backend": {
