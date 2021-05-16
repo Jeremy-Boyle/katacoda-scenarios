@@ -19,7 +19,6 @@
     },
     "assets": {
       "host01": [
-          {"file": "assets/ytt", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "assets/foot-template.yaml", "target": "/root/yaml/"},
           {"file": "assets/foo-values.yaml", "target": "/root/yaml/"}
       ]
