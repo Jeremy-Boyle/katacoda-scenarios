@@ -26,6 +26,11 @@
         {
           "file": "foo-values.yaml",
           "target": "/root/yaml/"
+        },
+        {
+          "file": "ytt",
+          "target": "/usr/local/bin",
+          "chmod": "+x"
         }
       ]
     }
