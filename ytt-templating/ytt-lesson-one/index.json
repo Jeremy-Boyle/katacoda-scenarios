@@ -16,6 +16,18 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "foo-template.yaml",
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "foo-values.yaml",
+          "target": "/root/yaml/"
+        }
+      ]
     }
   },
   "files": [
@@ -25,7 +37,7 @@
     "hidefinish": true,
     "uilayout": "editor-terminal",
     "uisettings": "javascript",
-    "uieditorpath": "/root/"
+    "uieditorpath": "/root/yaml"
   },
   "backend": {
     "imageid": "ubuntu:2004"
