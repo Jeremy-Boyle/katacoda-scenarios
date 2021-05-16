@@ -1,0 +1,14 @@
+#! This line means the values kept here can be used by any file that "loads" them
+#@data/values
+---
+
+loaves_of_bread: 1
+
+#! TODO: Don't forget the milk (2 gallons)!
+gallons_of_milk:
+
+#! TODO: We need 3 cartons of eggs this week.
+cartons_of_eggs: 2
+
+#! TODO: We should remove this, they're too tasty
+packs_of_oeros: 4

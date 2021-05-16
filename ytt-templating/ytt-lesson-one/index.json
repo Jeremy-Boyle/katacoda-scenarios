@@ -11,14 +11,25 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "assets/init.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+          {"file": "assets/ytt", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "assets/foot-template.yaml", "target": "/root/yaml/"},
+          {"file": "assets/foo-values.yaml", "target": "/root/yaml/"}
+      ]
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "hidefinish": true,
+    "uilayout": "editor-terminal",
+    "uisettings": "yaml",
+    "uieditorpath": "/root/yaml"
   },
   "backend": {
     "imageid": "ubuntu:2004"

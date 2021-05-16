@@ -1,0 +1,8 @@
+#! This line lets this file access the values kept in any file marked with #@data/values
+#@ load("@ytt:data", "data")
+
+#! TODO: Finish templating this schema to reference the other variables in foo-values.yaml
+groceries:
+  bread: #@ data.values.loaves_of_bread
+  milk:
+  eggs:
