@@ -18,7 +18,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client01": [
+      "host01": [
         {
           "file": "foo-template.yaml",
           "target": "/root/yaml/"
@@ -30,9 +30,6 @@
       ]
     }
   },
-  "files": [
-    "foo-template.yaml", "foo-values.yaml"
-  ],
   "environment": {
     "hidefinish": true,
     "uilayout": "editor-terminal",
