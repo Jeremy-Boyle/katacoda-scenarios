@@ -27,11 +27,6 @@
         {
           "file": "foo-values.yaml",
           "target": "/root/yaml/"
-        },
-        {
-          "file": "check.sh",
-          "target": "/tmp/",
-          "chmod": "+x"
         }
       ]
     }
