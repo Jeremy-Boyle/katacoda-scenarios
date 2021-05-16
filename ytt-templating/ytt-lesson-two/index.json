@@ -1,12 +1,12 @@
 {
-  "title": "Ytt Lesson One - Values",
-  "description": "Ytt Templating Lesson One",
+  "title": "Ytt Lesson Two - Control Flow",
+  "description": "Ytt Templating Lesson Two",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Lesson One",
+        "title": "Lesson Two",
         "text": "step1.md"
       }
     ],

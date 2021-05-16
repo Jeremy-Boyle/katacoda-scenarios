@@ -1,4 +1,4 @@
-### Scenario
+### Scenario - Values
 You have been tasked with adding, changing and removing some values in a templated manifest (`foo-template.yaml`). Use YTT to edit the values file (`foo-values.yaml`) and then generate a manifest using the `ytt` CLI.
 
 Good Luck!

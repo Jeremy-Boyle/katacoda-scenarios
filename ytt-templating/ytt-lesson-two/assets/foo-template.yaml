@@ -1,0 +1,24 @@
+#! This line lets this file access the values kept in any file marked with #@data/values
+#@ load("@ytt:data", "data")
+
+#! This function
+#@ def working_from_home():
+#@ return #! TODO: Figure out how to have a workday and be at home.
+#@ end
+
+---
+#! This creates a YAML block for our work schedule if we are working.
+#@ if data.values.workday:
+workday_tasks:
+#@ for task in data.values.work.tasks:
+- #@ task
+#@ end
+#@ end
+
+#! TODO: Create a YAML block for our hobby schedule if we are at home.
+
+
+#! This will show us that we are working from home if the conditionals "workday" AND "at_home" are true.
+#@ if working_from_home():
+working_from_home: true
+#@ end

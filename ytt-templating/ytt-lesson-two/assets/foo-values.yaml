@@ -1,0 +1,19 @@
+#! This line means the values kept here can be used by any file that "loads" them
+#@data/values
+---
+
+#! These values define our schedule at work.
+workday: true
+work:
+  tasks:
+  - Clean Floors
+  - Type Stuff
+  - Drink Coffee
+
+#! These values define our schedule at home.
+at_home: true
+home:
+  hobbies:
+  - Play videogames
+  - Cook
+  - Make Onboarding Repos

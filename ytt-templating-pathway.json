@@ -4,8 +4,13 @@
   "courses": [
     {
       "course_id": "ytt-lesson-one",
-      "title": "Ytt Lesson One",
+      "title": "Ytt Lesson One - Values",
       "description": "Ytt Templating Lesson One"
+    },
+    {
+      "course_id": "ytt-lesson-two",
+      "title": "Ytt Lesson Two - Control Flow",
+      "description": "Ytt Templating Lesson Two"
     }
   ]
 }
