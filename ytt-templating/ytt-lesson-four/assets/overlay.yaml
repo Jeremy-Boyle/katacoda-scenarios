@@ -1,0 +1,20 @@
+#! This line lets this file access the values kept in any file marked with #@data/values
+#@ load("@ytt:data", "data")
+#! This line lets this file use the YTT overlay module.
+#@ load("@ytt:overlay", "overlay")
+
+#! This function returns a block of YAML that we can search for.
+#@ def get_foo_service():
+kind: Service
+metadata:
+  name: foo
+#@ end
+
+#! This is the line that searches for the specific block of YAML that we will be editing
+#@overlay/match by=overlay.subset(get_foo_service()), expects="1+"
+---
+#! Everything below this line, and before the next search line, is the "editing" that we're doing
+#! There is an implicit #@overlay/match before every line, we only need to write our own "match" in certain cases.
+spec:
+  template:
+    port: #@ data.values.services.secure_port

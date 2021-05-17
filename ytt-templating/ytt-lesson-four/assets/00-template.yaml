@@ -1,0 +1,9 @@
+#! This is a template, do not modify this file!
+
+---
+kind: Service
+metadata:
+  name: foo
+spec:
+  template:
+    port: 8080

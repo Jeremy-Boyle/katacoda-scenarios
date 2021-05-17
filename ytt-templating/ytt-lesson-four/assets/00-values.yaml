@@ -1,0 +1,7 @@
+#@data/values
+---
+
+only_secure: True
+
+services:
+  secure_port: 80

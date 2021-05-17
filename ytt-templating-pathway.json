@@ -16,6 +16,11 @@
       "course_id": "ytt-lesson-three",
       "title": "Ytt Lesson Three - Overlay",
       "description": "Ytt Templating Lesson Three"
+    },
+    {
+      "course_id": "ytt-lesson-four",
+      "title": "Ytt Lesson Four - Structs",
+      "description": "Ytt Templating Lesson Four"
     }
   ]
 }
