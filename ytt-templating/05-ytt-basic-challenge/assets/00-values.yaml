@@ -1,0 +1,7 @@
+#@data/values
+---
+
+namespace: apps
+
+app:
+  name: basic

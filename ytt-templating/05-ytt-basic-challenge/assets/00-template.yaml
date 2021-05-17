@@ -1,0 +1,36 @@
+#! This is a template, do not modify this file!
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: changeme
+  namespace: changeme
+spec:
+  type: ClusterIP
+  ports:
+    - port: 443
+      protocol: TCP
+      name: https
+      targetPort: https
+  selector:
+    app: changeme
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: changeme
+  namespace: changeme
+spec:
+  selector:
+    matchLabels:
+      app: changeme
+  replicas: 1
+  template:
+    spec:
+      containers:
+        - name: registry
+          image: registry_image:latest
+          ports:
+          - containerPort: 8443
+            name: https

@@ -1,0 +1,25 @@
+#@data/values
+---
+namespace: apps
+
+service_account:
+  name: apps-sa
+
+role:
+  name: apps-role
+  rules:
+    resources:
+    - "*"
+    verbs:
+    - create
+    - delete
+
+role_binding:
+  name: apps-role-binding
+
+apps:
+- name: basic-app
+  replicas: 3
+  service:
+    type: ClusterIP
+    port: 8443
