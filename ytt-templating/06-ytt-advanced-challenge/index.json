@@ -1,12 +1,12 @@
 {
-  "title": "Ytt Lesson One - Values",
-  "description": "Ytt Templating Lesson One",
-  "difficulty": "Beginner",
+  "title": "Ytt Advanced Challenge",
+  "description": "Ytt Templating Advanced Challenge",
+  "difficulty": "Advanced",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Lesson One",
+        "title": "Advanced Challenge",
         "text": "step1.md"
       }
     ],
@@ -21,11 +21,27 @@
     "assets": {
       "host01": [
         {
-          "file": "foo-template.yaml",
+          "file": "00-additional.yaml",
           "target": "/root/yaml/"
         },
         {
-          "file": "foo-values.yaml",
+          "file": "00-template.yaml",
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "00-values.yaml",
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "overlay.yaml",
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "test-suite.star",
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "test.star",
           "target": "/root/yaml/"
         }
       ]

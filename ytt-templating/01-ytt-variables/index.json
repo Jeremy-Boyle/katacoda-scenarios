@@ -1,12 +1,12 @@
 {
-  "title": "Ytt Lesson Five - Prevention",
-  "description": "Ytt Templating Lesson Five",
-  "difficulty": "Advanced",
+  "title": "Ytt Lesson One - Variables",
+  "description": "Ytt Templating Lesson One",
+  "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Lesson Five",
+        "title": "Lesson One",
         "text": "step1.md"
       }
     ],
@@ -21,15 +21,11 @@
     "assets": {
       "host01": [
         {
-          "file": "00-template.yaml",
+          "file": "foo-template.yaml",
           "target": "/root/yaml/"
         },
         {
-          "file": "test-suite.star",
-          "target": "/root/yaml/"
-        },
-        {
-          "file": "test.star",
+          "file": "foo-values.yaml",
           "target": "/root/yaml/"
         }
       ]
