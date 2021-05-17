@@ -1,0 +1,49 @@
+{
+  "title": "Ytt Lesson Five - Prevention",
+  "description": "Ytt Templating Lesson Five",
+  "difficulty": "Advanced",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Lesson Five",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "install-ytt.sh",
+      "code": "startup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "00-template.yaml",
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "test-suite.star",
+          "target": "/root/yaml/"
+        },
+        {
+          "file": "test.star",
+          "target": "/root/yaml/"
+        }
+      ]
+    }
+  },
+  "files": [],
+  "environment": {
+    "hidefinish": false,
+    "uilayout": "editor-terminal",
+    "uisettings": "javascript",
+    "uieditorpath": "/root/yaml",
+    "uimessage1": "\u001b[32mPlease wait until you see the files populated in editor.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

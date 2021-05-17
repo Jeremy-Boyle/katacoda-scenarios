@@ -21,6 +21,11 @@
       "course_id": "ytt-lesson-four",
       "title": "Ytt Lesson Four - Structs",
       "description": "Ytt Templating Lesson Four"
+    },
+    {
+      "course_id": "ytt-lesson-five",
+      "title": "Ytt Lesson Five - Prevention",
+      "description": "Ytt Templating Lesson Five"
     }
   ]
 }
