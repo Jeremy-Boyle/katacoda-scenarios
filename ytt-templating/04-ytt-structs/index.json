@@ -12,7 +12,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "install-ytt.sh",
       "code": "startup.sh"
     },
     "finish": {
@@ -39,6 +38,11 @@
         {
           "file": "test.star",
           "target": "/root/yaml/"
+        },
+        {
+          "file": "ytt",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
         }
       ]
     }
