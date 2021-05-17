@@ -49,7 +49,7 @@
   },
   "files": [],
   "environment": {
-    "hidefinish": false,
+    "hidefinish": true,
     "uilayout": "editor-terminal",
     "uisettings": "javascript",
     "uieditorpath": "/root/yaml",
